@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'Noto Sans JP Black';
+    src: url(font/NotoSansJP-Black.otf);
+}
+
+@font-face {
+    font-family: 'Noto Sans JP Bold';
+    src: url(font/NotoSansJP-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Noto Sans JP Light';
+    src: url(font/NotoSansJP-Light.otf);
+}
+
+@font-face {
+    font-family: 'Noto Sans JP Medium';
+    src: url(font/NotoSansJP-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Noto Sans JP Regular';
+    src: url(font/NotoSansJP-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Noto Sans JP Thin';
+    src: url(font/NotoSansJP-Thin.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    max-width: 1920px;
+    display: block;
+    margin: 0 auto;
+}
+
+.head {
+    background-image: url(img/header.png);
+    width: 100%;
+    height: 172px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-0-nav-1,
+.test-0-nav-2,
+.test-0-nav-3,
+.test-0-nav-4 {
+    font-family: 'Noto Sans JP Regular';
+    font-size: 26px;
+    color: #000000;
+    padding-right: 2%;
+}
+
+.offer {
+    background-image: url(img/offer.png);
+    width: 100%;
+    height: 771px;
+}
+
+.offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans JP Regular';
+    font-size: 55px;
+    color: #ffffff;
+    background: rgba(44, 44, 44, 0.45);
+    width: 60%;
+    height: 22%;
+    margin-bottom: 15%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.prinzipi {
+    background-color: #ffffff;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 210px;
+}
+
+.medium-text {
+    font-family: 'Noto Sans JP Regular';
+    font-size: 30px;
+    display: flex;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.mini-text {
+    font-family: 'Noto Sans JP Regular';
+    font-size: 22px;
+    padding-bottom: 2%;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-top: 1%;
+
+}
+
+.input1 {
+    width: 25%;
+}
+
+.forma {
+    padding: 2%;
+    width: 90%;
+    height: 80%;
+    font-size: 22px;
+    color: #5F5F5F;
+    background: #FFFFFF;
+    border: 3px solid #D7D7D7;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.input2 {
+    width: 25%;
+}
+.nevidimka{
+    height: 37px;
+}
+.btn {
+    padding: 2%;
+    width: 90%;
+    height: 80%;
+    font-size: 22px;
+    background: #C1DBB8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+}
+#trust {
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2600px;
+}
+
+.trust {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.predlohenia {
+    display: flex;
+    justify-content: space-around;
+}
+
+.varianti {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+#trust .icon {
+    width: 200px;
+    height: 200px;
+}
+
+#trust .img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#trust .glav-text {
+    font-family: 'Noto Sans JP Regular';
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #000000;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#trust .normal-text {
+    font-family: 'Noto Sans JP Regular';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #000000;
+}
+
+#trust .medium-text {
+    font-family: 'Noto Sans JP Regular';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+#trust .normal-text-bold {
+    font-family: 'Noto Sans JP Regular';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    text-align: center;
+}
